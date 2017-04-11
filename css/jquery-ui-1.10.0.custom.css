@@ -1086,7 +1086,6 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 
 
 .ui-tabs .ui-tabs-nav li:hover, .ui-tabs .ui-tabs-nav li a:hover{
-  background:whiteSmoke;
   border-bottom:1px solid #ddd;
   padding-bottom:0px;
    color:#00438A;
@@ -1117,21 +1116,20 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active { margin-bottom: 0; padding-bottom: 0px; outline:none;}
 .ui-tabs .ui-tabs-nav li.ui-tabs-active , .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
-  background-color: #ffffff;
+
   border: 1px solid #ddd;
   border-bottom-color: #ffffff;
   cursor: default;
   color:gray;
   outline:none;
 }
-.ui-tabs .ui-tabs-nav li.ui-tabs-active a{background-color: #ffffff;outline:none;border:none;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a{outline:none;border:none;}
 .ui-tabs .ui-tabs-nav li.ui-tabs-active:hover{
-  background:#ffffff;
   outline:none;
   margin-bottom:0px;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a { cursor: text; }
-.ui-tabs .ui-tabs-nav li a, .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a { cursor: pointer; color:#0069D6; background:none; font-weight:normal; margin-bottom:-1px;}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a { cursor: pointer; color:#000000; background:none; font-weight:normal; margin-bottom:-1px;}
 /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
 .ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
 .ui-tabs-panel .ui-button{text-decoration:none;}
