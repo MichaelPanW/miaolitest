@@ -34,8 +34,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">會員管理 <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">會員註冊</a></li>
-                        <li><a href="#">會員登入</a></li>
+                        <li><a href="signin.html">會員註冊</a></li>
+                        <li><a href="login.html">會員登入</a></li>
                     </ul>
                 </li>
                 <li>
@@ -47,7 +47,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">關於計畫 <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">苗栗縣設計翻轉</a></li>
+                        <li><a href="about.html">苗栗縣設計翻轉</a></li>
                         <li><a href="#">聯絡我們</a></li>
                     </ul>
                 </li>
@@ -58,13 +58,13 @@
         <div class=" page-header">
             <div class="row">
                 <div class="col-xs-3">
-                    <ul class="list-group ">
-                        <li class="list-group-item item_active"><a>商品列表</a></li>
-                        <li class="list-group-item"><a>文創商品</a></li>
-                        <li class="list-group-item"><a>旅館住宿</a></li>
-                        <li class="list-group-item"><a>觀光景點</a></li>
-                        <li class="list-group-item"><a>地方美食</a></li>
-                        <li class="list-group-item"><a>苗栗民產</a></li>
+                    <ul class="nav nav-sidebar">
+                        <li class="list-group-item item_active" style="color:#fff"><span class="glyphicon glyphicon-gift"></span>  商品列表</li>
+                        <li class=""><a href="product.html">文創商品</a></li>
+                        <li class=""><a href="product.html">旅館住宿</a></li>
+                        <li class=""><a href="product.html">觀光景點</a></li>
+                        <li class=""><a href="product.html">地方美食</a></li>
+                        <li class=""><a href="product.html">苗栗民產</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-9">
@@ -119,15 +119,16 @@
             </div>
         </div>
         <br>
-        <div class=" page-header">
+        <div>
             <div id="tabs" class="">
+                    <div class="pull-right"><a href="product.html">看更多<span class="glyphicon glyphicon-chevron-right"></span></a></div>
                 <ul class="prod_ul">
                     <li><a href="#tabs-1">地方名產</a></li>
                     <li><a href="#tabs-2">旅館住宿</a></li>
                     <li><a href="#tabs-3">觀光景點</a></li>
                     <li><a href="#tabs-4">文創商品</a></li>
                 </ul>
-                <div id="tabs-1" class="green prod">
+                <div id="tabs-1" class="green inprod">
                     <div class="col-lg-2">
                         <div class="cover_img">
                             <a href="#"><img src="images/buss/11929768146_1ec3167c97_c.jpg" class="prod_img" /></a>
@@ -195,7 +196,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="tabs-2" class="green prod">
+                <div id="tabs-2" class="green inprod">
                     <div class="col-lg-2">
                         <div class="cover_img">
                             <a href="#"><img src="images/buss/Y014428000001_4_1.jpg" class="prod_img" /></a>
@@ -263,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="tabs-3" class="green prod">
+                <div id="tabs-3" class="green inprod">
                     <div class="col-lg-2">
                         <div class="cover_img">
                             <a href="#"><img src="images/buss/A82522.jpg" class="prod_img" /></a>
@@ -331,7 +332,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="tabs-4" class="green prod">
+                <div id="tabs-4" class="green inprod">
                     <div class="col-lg-2">
                         <div class="cover_img">
                             <a href="#"><img src="images/buss/noegg.jpg" class="prod_img" /></a>
@@ -414,6 +415,7 @@
                 <li>
                     <a>聯絡我們</a>
                 </li>
+
             </ul>
         </div>
         <div class="container">

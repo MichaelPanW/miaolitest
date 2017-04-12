@@ -1,3 +1,4 @@
+/*--------全域start--------*/
 * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -27,7 +28,41 @@ a {
     text-decoration: none;
     color: #000;
 }
+footer{
+	border: 1pt solid #cecece;
+}
+.imp_primary{
+background:  #428bca!important;
+}
+.imp_success{
+background:  #5cb85c!important;
+}
+.imp_solsuccess{
+background:  #7bf47b!important;
+}
+.imp_info{
+background:  #5bc0de!important;
+}
+.imp_waring{
+background:  #d9534f!important;
+}
+.ui-tabs-active{
+background:  #5cb85c!important;
 
+}
+.item_active{
+	background: #5cb85c;
+	border-color: #5cb85c;
+}
+.green * {
+    color: #66aa11;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+/*--------全域end--------*/
+/*--------首頁start--------*/
 .spa_buss {
     min-height: 200px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2b2b2b+76,1c1c1c+91,131313+100 */
@@ -41,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', end
 
 .title_buss {
     font-size: 50px;
-    color: #ddd;
+    color: #fff;
     line-height: 200px;
 }
 .fix_head{
@@ -84,17 +119,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', end
     margin: 0 auto;
 }
 
-.green * {
-    color: #66aa11;
-}
-.cover_img{
+.inprod .cover_img{
 	width: 200px;
 	height: 200px;
 	max-width: 100%;
 	max-height: 100%;
 	overflow: hidden;
 }
-.cover_item{
+.inprod .cover_item{
 	width: 200px;
 	height: 200px;
 	max-width: 100%;
@@ -102,47 +134,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', end
 	overflow: hidden;
 
 }
-.prod_img {
+.inprod .prod_img {
 	width: 100%;
 }
-.prod_name{
+.inprod .prod_name{
 	font-size: 16pt;
 	color: #565656;
 }
-.prod_money{
+.inprod .prod_money{
     position: absolute;
     right: 0;
     top: 80px;
 }
-.prod_ul{
+.inprod .prod_ul{
 	border-color: #458343!important;
 	border-width: 0 0 5px 0!important;
 }
-.prod{
+.inprod{
 }
-footer{
-	border: 1pt solid #cecece;
+
+/*--------首頁end--------*/
+/*--------產品頁start--------*/
+
+.prod .cover_img{
+	width: 150px;
+	height: 150px;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	text-align: center;
+	border: #cecece 1pt solid;
+	position: relative;
+    margin: 0 auto;
 }
-.imp_primary{
-background:  #428bca!important;
-}
-.imp_success{
-background:  #5cb85c!important;
-}
-.imp_solsuccess{
-background:  #7bf47b!important;
-}
-.imp_info{
-background:  #5bc0de!important;
-}
-.imp_waring{
-background:  #d9534f!important;
-}
-.ui-tabs-active{
-background:  #5cb85c!important;
+.prod .cover_item{
+	width: 200px;
+	height: 100px;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
 
 }
-.item_active{
-	background: #5cb85c;
-	border-color: #5cb85c;
+.prod .prod_img {
+	height: 100%;
+	position: absolute;
+	left: -25%;
+}
+.prod .prod_name{
+	font-size: 16pt;
+	color: #565656;
+}
+.prod .prod_money{
+	float: right;
+}
+.prod .prod_ul{
+	border-color: #458343!important;
+	border-width: 0 0 5px 0!important;
 }
